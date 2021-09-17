@@ -1,0 +1,123 @@
+body{
+    background-image:url(image/hacker.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+.ami{
+    color:magenta;
+    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#tumi{
+    color: springgreen;
+    background-color: royalblue;
+    font-family:monospace;
+}
+p{
+    color: white;
+    background-color:black;
+    font-family: monospace;
+}
+.romantic{
+    color: black;
+    background-color:white;
+    font-size: 30px;
+}
+.tour{
+background-color: burlywood;
+width: 400px;
+margin:auto;
+border: 5px solid black;
+box-shadow: 20px 20px 500px 5px;
+border-radius: 20px;
+padding: 10px;
+
+}
+.tour:hover{
+    visibility: hidden;
+}
+.tour h3{
+    color:black;
+    background-color: fuchsia;
+    font-size: 40px;
+    font-family: cursive;
+    text-align:center;
+    font-weight:  500px;
+    text-transform: uppercase;
+}
+.tour h3:hover{
+    color: tomato;
+    background-color: white;
+    visibility: hidden;
+
+
+
+}
+.tour p{
+    color: lightseagreen;
+    background-color: pink;
+    font-size: 30px;
+    font-family: cursive;
+
+    }
+.tour p:hover{
+    color:black;
+    background-color: tomato;
+    
+
+}
+.blog{
+    background-color: burlywood;
+    width: 400px;
+    margin:auto;
+    border: 5px solid black;
+    box-shadow: 20px 20px 500px 5px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top:40px ;
+    
+
+}
+.blog h3:hover{
+    color: tomato;
+    background-color: white;
+
+
+
+}
+.blog h3{
+    color:black;
+    background-color: fuchsia;
+    font-size: 40px;
+    font-family: monospace;
+    text-align:center;
+
+}
+.blog p{
+    color: lightseagreen;
+    background-color: pink;
+    font-size: 30px;
+    font-family: cursive;
+
+}
+.do{
+    border: 1px solid navy;
+    border-radius: 20px;
+    width: 30%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}  
+.tour:hover{
+    transform:scale(1.1);
+   transition: linear 1.1s;
+   background-color:black;
+}
+.do:hover{
+    transform:scale(1.1);
+    transition: linear 1.1s;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
